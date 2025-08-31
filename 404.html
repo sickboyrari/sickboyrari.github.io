@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>404 @ yuke</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add the following CSS for the glowing effect on hover */
+    #test {
+      text-decoration: none;
+      /* Remove the default underline */
+      color: black;
+      /* Set the default text color */
+      transition: color 0.5s ease;
+      /* Add a smooth transition effect */
+      font-size: 340px;
+    }
+
+    #text404 {
+      text-decoration: none;
+      /* Remove the default underline */
+      color: black;
+      /* Set the default text color */
+      font-size: 30px;
+    }
+    #test:hover {
+      color: #000000;
+      /* Set the text color to green on hover */
+      text-shadow: 0 0 10px rgba(50, 205, 50, 0.5), 0 0 20px rgba(50, 205, 50, 0.5), 0 0 30px rgba(50, 205, 50, 0.5);
+      /* Add the glowing effect */
+    }
+
+    #fields {
+      position: relative;
+      margin: 50px auto;
+      width: 70%;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid rgba(50, 205, 50, 0.5);
+      box-shadow: 0 0 20px rgba(50, 205, 50, 0.5);
+      animation: smoke 3s ease-in-out infinite;
+    }
+
+    #fields legend {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    @keyframes smoke {
+      0% {
+        box-shadow: 0 0 20px rgba(50, 205, 50, 0.5);
+      }
+
+      50% {
+        box-shadow: 0 0 40px rgba(50, 205, 50, 0.7);
+      }
+
+      100% {
+        box-shadow: 0 0 20px rgba(50, 205, 50, 0.5);
+      }
+    }
+  </style>
+</head>
+
+<body onload="onload()" onresize="sizeUi()">
+  <fieldset id="fields" style="position: relative;">
+    <legend><b><i>yuke.midnight.pub</i></b></legend>
+    <a id="test">404</a>
+    <br>the page you're looking for either isn't available, or hasn't been uploaded yet ;(
+  </fieldset>
+
+
+</body></html>
